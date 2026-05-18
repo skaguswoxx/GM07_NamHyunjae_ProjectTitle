@@ -1,0 +1,14 @@
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\bin\Debug\net8.0\RPG Game 승급과제.exe
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\bin\Debug\net8.0\RPG Game 승급과제.deps.json
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\bin\Debug\net8.0\RPG Game 승급과제.runtimeconfig.json
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\bin\Debug\net8.0\RPG Game 승급과제.dll
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\bin\Debug\net8.0\RPG Game 승급과제.pdb
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\obj\Debug\net8.0\RPG Game 승급과제.GeneratedMSBuildEditorConfig.editorconfig
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\obj\Debug\net8.0\RPG Game 승급과제.AssemblyInfoInputs.cache
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\obj\Debug\net8.0\RPG Game 승급과제.AssemblyInfo.cs
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\obj\Debug\net8.0\RPG Game 승급과제.csproj.CoreCompileInputs.cache
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\obj\Debug\net8.0\RPG Game 승급과제.dll
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\obj\Debug\net8.0\refint\RPG Game 승급과제.dll
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\obj\Debug\net8.0\RPG Game 승급과제.pdb
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\obj\Debug\net8.0\RPG Game 승급과제.genruntimeconfig.cache
+D:\과제\C#\RPG Game 승급과제\RPG Game 승급과제\obj\Debug\net8.0\ref\RPG Game 승급과제.dll

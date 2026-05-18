@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|d:\\\uACFC\uC81C\\c#\\rpg game \uC2B9\uAE09\uACFC\uC81C\\rpg game \uC2B9\uAE09\uACFC\uC81C\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|solutionrelative:rpg game \uC2B9\uAE09\uACFC\uC81C\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|d:\\\uACFC\uC81C\\c#\\rpg game \uC2B9\uAE09\uACFC\uC81C\\rpg game \uC2B9\uAE09\uACFC\uC81C\\itemclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|solutionrelative:rpg game \uC2B9\uAE09\uACFC\uC81C\\itemclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|d:\\\uACFC\uC81C\\c#\\rpg game \uC2B9\uAE09\uACFC\uC81C\\rpg game \uC2B9\uAE09\uACFC\uC81C\\inter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|solutionrelative:rpg game \uC2B9\uAE09\uACFC\uC81C\\inter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|d:\\\uACFC\uC81C\\c#\\rpg game \uC2B9\uAE09\uACFC\uC81C\\rpg game \uC2B9\uAE09\uACFC\uC81C\\allcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|solutionrelative:rpg game \uC2B9\uAE09\uACFC\uC81C\\allcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|d:\\\uACFC\uC81C\\c#\\rpg game \uC2B9\uAE09\uACFC\uC81C\\rpg game \uC2B9\uAE09\uACFC\uC81C\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4EBDE86D-5108-4178-870F-11CB5C3BEB12}|RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C.csproj|solutionrelative:rpg game \uC2B9\uAE09\uACFC\uC81C\\battlesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\Program.cs",
+              "RelativeDocumentMoniker": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\Program.cs",
+              "ToolTip": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\Program.cs",
+              "RelativeToolTip": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAgwAwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T05:58:39.856Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ItemClass.cs",
+              "DocumentMoniker": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\ItemClass.cs",
+              "RelativeDocumentMoniker": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\ItemClass.cs",
+              "ToolTip": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\ItemClass.cs",
+              "RelativeToolTip": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\ItemClass.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAgwIAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T08:01:17.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BattleSystem.cs",
+              "DocumentMoniker": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\BattleSystem.cs",
+              "RelativeDocumentMoniker": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\BattleSystem.cs",
+              "ToolTip": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\BattleSystem.cs",
+              "RelativeToolTip": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\BattleSystem.cs",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAkwIIBAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T07:59:48.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AllCharacter.cs",
+              "DocumentMoniker": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\AllCharacter.cs",
+              "RelativeDocumentMoniker": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\AllCharacter.cs",
+              "ToolTip": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\AllCharacter.cs",
+              "RelativeToolTip": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\AllCharacter.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAwwBwBAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T05:59:00.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Inter.cs",
+              "DocumentMoniker": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\Inter.cs",
+              "RelativeDocumentMoniker": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\Inter.cs",
+              "ToolTip": "D:\\\uACFC\uC81C\\C#\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\RPG Game \uC2B9\uAE09\uACFC\uC81C\\Inter.cs",
+              "RelativeToolTip": "RPG Game \uC2B9\uAE09\uACFC\uC81C\\Inter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-13T06:39:28.109Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
