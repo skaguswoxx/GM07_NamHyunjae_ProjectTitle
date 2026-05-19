@@ -1,5 +1,4 @@
-﻿using Inter;
-using ItemClass;
+﻿using ItemClass;
 using BattleSystem;
 
 namespace AllCharacter
@@ -131,6 +130,14 @@ namespace AllCharacter
             Console.WriteLine($"기본 방어력 증가 : {Def}");
         }
 
+        public void UseGold(int gold) // 상점 구매
+        {
+            Gold -= gold;
+            if (Gold < 0)
+            {
+                Gold = 0;
+            }
+        }
         public void GetGold(int gold)
         {
             Gold += gold;
@@ -154,6 +161,7 @@ namespace AllCharacter
 
             Dmg += AttackBonus.AttackBonus;
             Console.WriteLine($"{AttackBonus.Name} 장착 \n공격력 : {AttackBonus.AttackBonus} ");
+            Console.WriteLine("엔터를 눌러 진행");
 
         }
 
@@ -168,14 +176,17 @@ namespace AllCharacter
 
             Def += armor.DefBonus;
             Console.WriteLine($"{armor.Name} 장착 \n방어력이 {armor.DefBonus} 만큼 상승");
+            Console.WriteLine("엔터를 눌러 진행");
 
         }
         public void PotionHaling(Potion potion) //회복 적용
         {
             Hp += potion.Haling;
             Console.WriteLine($"{potion.Name} 사용 \n체력이 {potion.Haling} 만큼 회복 남은 체력 : {Hp}" );
+            Console.WriteLine("엔터를 눌러 진행" );
 
         }
+
         public void PlayerNomalAccack(Monster target) // 공격력 - 방어력 = 최종 데미지
         {
             int finalDamage = target.TakeDamg(Dmg);
@@ -210,7 +221,7 @@ namespace AllCharacter
         }
 
         public abstract void MonsterNomalAccack(Player target);
-        public abstract void MonsterUltimateSkill(Player target);
+
 
     }
 
@@ -219,7 +230,7 @@ namespace AllCharacter
         public Slime()
         {
             Name = "슬라임";
-            Hp = 15;
+            Hp = 30;
             Dmg = 1;
             Def = 0;
             Level = 1;
@@ -229,21 +240,17 @@ namespace AllCharacter
         public override void MonsterNomalAccack(Player target)
         {
             int finalDamage = target.TakeDamg(Dmg);
-            Console.WriteLine($"{Name}의 액체 분사 사용 \n{finalDamage} 만큼의 데미지를 주었습니다.");
+            Console.WriteLine($"{Name}의 액체 분사 사용 \n{finalDamage} 만큼의 데미지를 받았습니다.");
             
         }
-        public override void MonsterUltimateSkill(Player target)
-        {
-            int finalDamage = target.TakeDamg(Dmg * 3);
-            Console.WriteLine($"{Name}의 궁극기 사용 \n{finalDamage} 만큼의 데미지를 주었습니다.");
-        }
+     
     }
     class Bat : Monster
     {
         public Bat()
         {
             Name = "박쥐";
-            Hp = 14;
+            Hp = 60;
             Dmg = 8;
             Def = 1;
             Level = 5;
@@ -253,31 +260,27 @@ namespace AllCharacter
         public override void MonsterNomalAccack(Player target)
         {
             int finalDamage = target.TakeDamg(Dmg);
-            Console.WriteLine($"{Name}의 깨물기 사용 \n{finalDamage} 만큼의 데미지를 주었습니다.");
+            Console.WriteLine($"{Name}의 깨물기 사용 \n{finalDamage} 만큼의 데미지를 받았습니다.");
 
         }
-        public override void MonsterUltimateSkill(Player target)
-        {
-            int finalDamage = target.TakeDamg(Dmg * 3);
-            Console.WriteLine($"{Name}의 궁극기 사용 \n{finalDamage} 만큼의 데미지를 주었습니다.");
-        }
+    
     }
 
     abstract class BossMonster : Monster
     {
-       
 
 
 
+        public abstract void MonsterUltimateSkill(Player target);
     }
-    class Sens : BossMonster
+    class Tiger : BossMonster
     {
-        public Sens()
+        public Tiger()
         {
-            Name = "샌즈";
-            Hp = 100;
-            Dmg = 30;
-            Def = 0;
+            Name = "호랑이";
+            Hp = 560;
+            Dmg = 15;
+            Def = 5;
             Level = 30;
             RewardGold = 100;
             RewardExp = 85;
@@ -285,13 +288,13 @@ namespace AllCharacter
         public override void MonsterNomalAccack(Player target)
         {
             int finalDamage = target.TakeDamg(Dmg);
-            Console.WriteLine($"{Name}의 블라스터 사용 \n{finalDamage} 만큼의 데미지를 받았습니다.");
+            Console.WriteLine($"{Name}의 깨물기 사용 \n{finalDamage} 만큼의 데미지를 받았습니다.");
 
         }
         public override void MonsterUltimateSkill(Player target)
         {
             int finalDamage = target.TakeDamg(Dmg * 3);
-            Console.WriteLine($"{Name}의 궁극기 사용 \n{finalDamage} 만큼의 데미지를 받았습니다.");
+            Console.WriteLine($"{Name}의 할퀴기 사용 \n{finalDamage} 만큼의 데미지를 받았습니다.");
         }
     }
 
