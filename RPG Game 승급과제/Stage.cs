@@ -27,7 +27,7 @@ namespace FieldStage
 
             Console.WriteLine();
             Console.WriteLine("1. 상점으로 이동");
-            Console.WriteLine("2. 사냥터로 이동");
+            Console.WriteLine("2. 사냥터로 이동 : 랜덤 등장");
             Console.WriteLine("3. 동굴로 이동 : 박쥐만 등장");
             Console.WriteLine("4. 보스 사냥 이동");
 
