@@ -153,7 +153,13 @@ namespace AllCharacter
 
         public void AttackBonus(Weapon AttackBonus) //공격 보너스 적용
         {
-            if(bonusWeapon != null) // 장착 중이라면 공격력 감소
+            if (AttackBonus == bonusWeapon)
+            {
+                Console.WriteLine("이미 장착 중인 방어구입니다.");
+                return;
+            }
+
+            if (bonusWeapon != null) // 장착 중이라면 공격력 감소
             {
                 Dmg -= bonusWeapon.AttackBonus;
             }
@@ -167,6 +173,12 @@ namespace AllCharacter
 
         public void DefBonus(Armor armor) //방어 보너스 적용
         {
+            if (bonusArmor == armor)
+            {
+                Console.WriteLine("이미 장착 중인 방어구입니다.");
+                return;
+            }
+
             if (bonusArmor != null) // 장착 중이라면 방어력 감소
             {
                 Def -= bonusArmor.DefBonus;

@@ -9,14 +9,6 @@ namespace FieldStage
         public void DrawStage()
         {
             Console.Clear();
-
-            Console.WriteLine("                         [Boss]                        ");
-            Console.WriteLine("                    #    #   #     #                       ");
-            Console.WriteLine("                  #     #    #      #                      ");
-            Console.WriteLine("               #       #     #       #                     ");
-            Console.WriteLine("             #        #      #        #                    ");
-            Console.WriteLine("          #          #       #         #                   ");
-            Console.WriteLine("         #         #         #           #                 ");
             Console.WriteLine("     [상점]     [사냥터]    [동굴]       [보스방]       ");
             Console.WriteLine("       #          #         #          #                ");
             Console.WriteLine("        #          #        #         #                 ");

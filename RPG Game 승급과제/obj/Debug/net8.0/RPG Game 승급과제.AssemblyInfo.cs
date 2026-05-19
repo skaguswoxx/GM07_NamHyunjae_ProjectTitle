@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RPG Game 승급과제")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2da299d52fbb682ef8afd498441d9e152d040b8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4378f675888c172f4446e50e14a7e6fef827b953")]
 [assembly: System.Reflection.AssemblyProductAttribute("RPG Game 승급과제")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RPG Game 승급과제")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
